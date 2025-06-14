@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+
+    <title>Home</title>
+  </head>
+  <body>
+    <header
+      class="flex px-8 text-white w-full bg-[#EB6505] font-bold items-center justify-between md:px-10 py-2"
+    >
+      <div class="text-2xl">IdeaSprint.</div>
+      <div>
+        <nav class="flex space-x-8 text-white font-medium hidden md:block">
+          <a href="/home.html" class="">How it works</a>
+          <a href="/home.html" class="">Pricing</a>
+          <a href="/home.html" class="">Testimonials</a>
+          <a href="/home.html" class="">FAQ</a>
+        </nav>
+      </div>
+      <div class="flex gap-4 items-center justify-center font-normal">
+        <a href="#" class="cursor-pointer">Sign in</a>
+        <button class="px-4 py-2 bg-white text-[#EB6505] rounded-3xl">
+          Get Started
+        </button>
+      </div>
+    </header>
+    <main class="flex justify-center items-center py-12">
+      <div class="flex flex-col gap-2 justify-center items-center">
+        <div class="flex flex-col gap-2 justify-center items-center">
+          <h1
+            class="text-6xl text-[#2F2F2F] font-inter font-medium tracking-tighter"
+          >
+            Join IdeaSprint
+          </h1>
+          <p class="text-gray-400 text-md">
+            Create your account or sign in to start building your MVP
+          </p>
+        </div>
+
+        <div class="flex gap-12 w-[840px]">
+          <div class="flex-1 p-4 flex flex-col gap-4">
+            <header class="flex justify-around">
+              <a href="signin.html" class="font-medium cursor-pointer">Signin</a
+              ><a
+                class="font-medium cursor-pointer bg-orange-300 p-2 px-6 rounded-3xl"
+                href="signup.html"
+                >Signup</a
+              >
+            </header>
+            <form action="" class="flex flex-col py-8 gap-[20px]">
+              <div class="flex flex-col gap-1">
+                <label for="name" class="font-medium text-[#2F2F2F]"
+                  >Full Name</label
+                >
+                <input
+                  class="border border-gray-300 rounded-md text-[#B6B8C0] px-[16px] py-[12px]"
+                  type="text"
+                  placeholder="John Doe"
+                />
+              </div>
+              <div class="flex flex-col gap-1">
+                <label for="email" class="font-medium text-[#2F2F2F]"
+                  >Email</label
+                >
+                <input
+                  class="border border-gray-300 rounded-md text-[#B6B8C0] px-[16px] py-[12px]"
+                  type="text"
+                  placeholder="John@gmail.com"
+                />
+              </div>
+              <div class="flex flex-col gap-1">
+                <label for="password" class="font-medium text-[#2F2F2F]"
+                  >Password</label
+                >
+                <input
+                  class="border border-gray-300 rounded-md text-[#B6B8C0] px-[16px] py-[12px]"
+                  type="password"
+                  placeholder="******"
+                />
+              </div>
+              <div class="flex flex-col gap-1">
+                <label for="password" class="font-medium text-[#2F2F2F]"
+                  >Confirm Password</label
+                >
+                <input
+                  class="border border-gray-300 rounded-md text-[#B6B8C0] px-[16px] py-[12px]"
+                  type="password"
+                  placeholder="*********"
+                />
+              </div>
+              <div>
+                <button
+                  class="bg-orange-500 font-medium mx-auto mt-6 w-[96%] flex justify-center self-center text-white px-8 py-2 rounded-3xl"
+                >
+                  Create Account
+                </button>
+              </div>
+            </form>
+          </div>
+          <div class="flex-1 flex flex-col gap-4 p-4">
+            <div class="flex flex-col gap-2">
+              <h1
+                class="text-3xl text-[#2F2F2F] font-inter font-medium tracking-tight"
+              >
+                Turn Your Ideas Into Reality
+              </h1>
+              <p class="text-gray-400 text-md">
+                Get professional clickable demos and MVPs built for your
+                startup. From concept to prototype in days, not months.
+              </p>
+            </div>
+
+            <div class="grid grid-cols-2 gap-4">
+              <div class="flex flex-col p-2">
+                <p class="font-medium text-lg text-[#EB6505]">48Hrs</p>
+                <p class="text-sm text-[#2F2F2F]">Average delivery time</p>
+              </div>
+              <div class="flex flex-col p-2">
+                <p class="font-medium text-lg text-[#EB6505]">98%</p>
+                <p class="text-sm text-[#2F2F2F]">Project Accuracy arte</p>
+              </div>
+              <div class="flex flex-col p-2">
+                <p class="font-medium text-lg text-[#EB6505]">500+</p>
+                <p class="text-sm text-[#2F2F2F]">Project delivered</p>
+              </div>
+              <div class="flex flex-col p-2">
+                <p class="font-medium text-lg text-[#EB6505]">$2M+</p>
+                <p class="text-sm text-[#2F2F2F]">Funding Raised By client</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+  </body>
+</html>
