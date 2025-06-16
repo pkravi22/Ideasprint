@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+
+    <title>Home</title>
+  </head>
+  <body>
+    <header
+      class="flex px-8 text-white w-full bg-[#EB6505] font-bold items-center justify-between md:px-10 py-2"
+    >
+      <div class="text-2xl">IdeaSprint.</div>
+      <div>
+        <nav class="flex space-x-8 text-white font-medium hidden md:block">
+          <a href="/home.html" class="">How it works</a>
+          <a href="/home.html" class="">Pricing</a>
+          <a href="/home.html" class="">Testimonials</a>
+          <a href="/home.html" class="">FAQ</a>
+        </nav>
+      </div>
+      <div class="flex gap-4 items-center justify-center font-normal">
+        <a href="/signup.html" class="">Sign in</a>
+        <button class="px-4 py-2 bg-white text-[#EB6505] rounded-3xl">
+          Get Started
+        </button>
+      </div>
+    </header>
+    <main class="flex flex-col w-full gap-4 px-4 sm:px-8 py-8 gap-8">
+      <section class="flex flex-col">
+        <p
+          class="text-4xl text-[#2F2F2F] font-inter font-medium tracking-tighter"
+        >
+          Welcome back, John!
+        </p>
+        <p class="text-gray-400 text-md mt-2">
+          Track your demo projects and explore new opportunities
+        </p>
+      </section>
+      <section class="grid grid-cols-2 md:grid-cols-4 gap-8">
+        <div class="flex justify-between items-center p-2">
+          <div>
+            <p class="text-gray-400 text-md mt-2">Today's Money</p>
+            <p class="text-2xl font-medium">0</p>
+          </div>
+          <div class="bg-blue-600 p-2 rounded-md">
+            <img src="assets/Group.png" alt="" />
+          </div>
+        </div>
+        <div class="flex justify-between items-center p-2">
+          <div>
+            <p class="text-gray-400 text-md mt-2">In Progess</p>
+            <p class="text-2xl font-medium">0</p>
+          </div>
+          <div class="bg-orange-400 p-2 rounded-md">
+            <img src="assets/clock.png" alt="" />
+          </div>
+        </div>
+        <div class="flex justify-between items-center p-2">
+          <div>
+            <p class="text-gray-400 text-md mt-2">Completed</p>
+            <p class="text-2xl font-medium">0</p>
+          </div>
+          <div class="bg-green-600 p-2 rounded-md">
+            <img src="assets/chart.png" alt="" />
+          </div>
+        </div>
+        <div class="flex justify-between items-center p-2">
+          <div class="flex flex-col gap-2">
+            <p class="text-gray-400 text-md mt-2">Avg.Delivery</p>
+            <p class="text-2xl font-medium">0</p>
+          </div>
+          <div class="bg-violet-600 p-2 rounded-md">
+            <img src="assets/user.png" alt="" />
+          </div>
+        </div>
+      </section>
+      <section class="flex gap-8 flex-col md:flex-row">
+        <div class="flex-3">
+          <div class="flex justify-between px-4">
+            <p>Recent Projects</p>
+            <p>View All</p>
+          </div>
+          <div
+            class="flex flex-col gap-4 h-[200px] w-full justify-center items-center"
+          >
+            <img src="assets/rocket.png" alt="Growth Pic" />
+            <p class="text-gray-400">No Project Yet</p>
+            <div>
+              <button
+                class="border bg-orange-500 rounded-3xl px-8 py-2 w-[250px] text-white"
+              >
+                New Demo Request
+              </button>
+            </div>
+          </div>
+        </div>
+        <div class="flex-1 flex flex-col gap-4">
+          <div class="flex flex-col gap-2">
+            <h1 class="font-inter py-2">Quick Actions</h1>
+            <div class="flex flex-col gap-2 justify-center items-center">
+              <div>
+                <button
+                  class="border flex gap-2 items-center bg-orange-500 rounded-3xl px-8 py-2 w-[250px] text-white"
+                >
+                  <img
+                    src="assets/Group.png"
+                    alt=""
+                    class="h-[16px] w-[16px]"
+                  />
+                  <p>New Demo Request</p>
+                </button>
+              </div>
+              <div>
+                <button
+                  class="border flex gap-2 items-center border-gray-100 hover:bg-orange-500 rounded-3xl w-[250px] px-8 py-2 text-gray-400 hover:text-white"
+                >
+                  <img
+                    src="assets/dashboard.png"
+                    alt=""
+                    class="h-[16px] w-[16px]"
+                  />
+                  <p>View Dashboard</p>
+                </button>
+              </div>
+              <div>
+                <button
+                  class="border flex gap-2 items-center border-gray-100 hover:bg-orange-500 rounded-3xl w-[250px] px-8 py-2 text-gray-400 hover:text-white"
+                >
+                  <img
+                    src="assets/contact.png"
+                    alt=""
+                    class="h-[16px] w-[16px]"
+                  />
+                  <p>Contact Support</p>
+                </button>
+              </div>
+            </div>
+          </div>
+          <div class="mt-8 flex flex-col gap-2 p-2">
+            <p class="flex gap-2 items-center font-medium">
+              <img src="assets/bulb.png" alt="" />
+              Pro Tip
+            </p>
+            <p class="text-gray-400">
+              Include detailed mockups or sketches in your submission to get a
+              more accurate demo that matches your vision.
+            </p>
+          </div>
+        </div>
+      </section>
+    </main>
+  </body>
+</html>
